@@ -15,14 +15,14 @@ export const Hero = () => {
           Contact Me
         </a>
       </div>
-      <div>
+      <div style={{boxShadow: "0px 0px 30px 10px #000, 0px 0px 40px 10px #000 inset", borderRadius:"50%"}}>
         <img
-          src={getImageUrl("hero/hero.JPG")}
+          src={getImageUrl("hero/hero.png")}
           alt="Hero image of me"
           className={styles.heroImg}
           style={{
             height: "60vh", width: "30vw", borderRadius: "50%",
-            boxShadow: "0px 0px 40px 10px #0b2447"
+            
           }}
         />
       </div>

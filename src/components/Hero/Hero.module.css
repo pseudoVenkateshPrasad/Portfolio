@@ -37,6 +37,8 @@
   font-size: 20px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
+  margin-right: 5em;
+  text-align: justify;
 }
 
 .contactBtn {
@@ -47,7 +49,7 @@
   font-size: 16px;
   font-weight: 600;
   padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 8px 1px rgba(151, 151, 151, 0.25);
   transition: all 250ms ease;
 }
 
@@ -88,8 +90,8 @@
   top: -128px;
   left: -10vw;
   border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
+  background: #000;
+  filter: blur(200px);
   z-index: 0;
 }
 
@@ -102,9 +104,10 @@
   top: 246px;
   right: -25vw;
   border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
+  /* background: rgba(109, 103, 25, 0.7); */
+  filter: blur(200px);
   z-index: 0;
+  background: #000;
 }
 
 @media screen and (max-width: 830px) {
