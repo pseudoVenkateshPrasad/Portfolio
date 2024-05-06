@@ -1,26 +1,14 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Industry 4.0 Project",
+    "imageSrc": "projects/i4.0.jpg",
+    "description": "Implemented an Industry 4.0 project leveraging MERN stack for seamless integration of data analytics, and real-time monitoring, enhancing production efficiency and decision-making processes.",
+    "skills": ["React", "Express", "Node", "Mongo Db"]
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Track & Trace Project",
+    "imageSrc": "projects/trackandtrace.jpg",
+    "description": "Developed a Track and Trace system using MERN stack for real-time monitoring and management of assets or shipments, with comprehensive data visualization and analytics capabilities.",
+    "skills": ["React", "Express", "Node", "Mongo Db"]
   }
 ]

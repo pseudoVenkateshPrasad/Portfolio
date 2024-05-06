@@ -6,8 +6,11 @@
   border-radius: 10px;
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
+  padding: 18px 24px !important;
   max-width: 345px;
+  border : 1px solid white;
+  height : 62vh;
+  box-shadow: 0 0 14px 2px #dadada;
 }
 
 .image {
@@ -17,29 +20,34 @@
 .title {
   font-size: 25px;
   font-weight: 700;
+  text-decoration: underline;
 }
 
 .description {
   margin-top: 6px;
-  font-size: 25px;
+  font-size: 16px;
+  font-style: oblique;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
 }
 
 .skills {
   width: 100%;
+  /* border : 1px solid red; */
   margin-top: 14px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 6px;
   list-style: none;
 }
 
 .skill {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
-  border-radius: 100px;
-  background: var(--color-dark);
+  border-radius: 6px;
+  background: #000;
   padding: 2px 22px;
 }
 

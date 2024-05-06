@@ -57,21 +57,24 @@
 }
 
 .history {
-  width: 45%;
+  width: 100%;
+  margin-top: 1em;
   display: flex;
-  flex-direction: column;
-  gap: 40px;
+  /* border : 1px solid red; */
+  /* flex-direction: column; */
+  /* gap: 40px; */
 }
 
 .historyItem {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 17px;
+  /* gap: 17px; */
   background: #19376d;
   background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
   border-radius: 10px;
   padding: 24px;
+  margin:1em;
 }
 
 .historyItem img {
