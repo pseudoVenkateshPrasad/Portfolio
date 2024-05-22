@@ -6,7 +6,8 @@ import { getImageUrl } from "../../utils";
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const handleDownload = () => {
-    const downloadableLink = 'https://docs.google.com/document/d/1SFQ54cTxPUn8OrkZs8x6FJ9QXE8S_NmjiG-Q902LBtc/edit?usp=sharing';
+    // const downloadableLink = 'https://docs.google.com/document/d/1SFQ54cTxPUn8OrkZs8x6FJ9QXE8S_NmjiG-Q902LBtc/edit?usp=sharing';
+    const downloadableLink = 'https://drive.google.com/file/d/1-7SxOusVGysmFlo9S6gOp7wM9z6jPk5N/view?usp=sharing';
 
     window.open(downloadableLink, '_blank');
 };
